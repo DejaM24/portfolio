@@ -7,6 +7,7 @@ import ultaLogo from './images/ultaLogo.jpg';
 import linkedInLogo from './images/linkedInLogo.png';
 import emailLogo from './images/emailLogo.png';
 import githubLogo from './images/githubLogo.png';
+import leo from './images/leo.png';
 
 function App() {
 
@@ -66,8 +67,8 @@ function App() {
           Experience
         </div>
 
-        <div className='flex content-center text-5xl font-thin  p-28  text-white bg-gradient-to-r from-neutral to-secondary'>
-          I've experinece most my professional career in medicine. pharmaceuticals to be specific. Lorem ipsum dolor sit amet. Ut dolores dolor eum voluptatem voluptatem eum molestiae error est quaerat enim ea impedit deserunt ut nisi labore id tenetur quaerat? Qui dolores similique qui corporis reiciendis sit enim sequi sit facilis dolores aut vero cumque rem quae illum ut voluptatem architecto.
+        <div className='flex content-center text-5xl text-center font-thin  p-28  text-white bg-gradient-to-r from-neutral to-secondary'>
+          Most of my professional career took place in medicine. I worked in pharmaceuticals to be more specific. Working through challenges throughout my career, I've really valued inquiring intricate skills along the way. I've been coding for roughly about a year now. Continuously buliding on different tools and languages to gain a broader understanding of reading, writing and debugging code. My niche lies within front-end development, creating user friendly applications that are responsive and visibly appealing. The foundation of most of the applications I've developed have been the use of Javascript, React, Vite, daisyUI, and Tailwind CSS.
         </div>
       </div>
       {/* about me section */}
@@ -76,18 +77,20 @@ function App() {
       </div>
 
       <div className='flex justify-center  text-white bg-gradient-to-r from-neutral to-secondary'>
-        <img src={headShot} alt='portrait' width='35%' height='35%' className='flex justify-start rounded-full ml-7 p-28'></img>
+        <img src={headShot} alt='portrait' width='24%' height='24%' className='flex rounded-full ml-20 pt-24 pb-24 scale-y-75'></img>
+
         {/* edit text here */}
-        <div className='flex justify-end text-5xl font-thin ml-20 pt-20'>Welcome! I'm Deja Moore. Based in Richmond, VA. Designs with the user in mind. Lorem ipsum dolor sit amet. Ut dolores dolor eum voluptatem voluptatem eum molestiae error est quaerat enim ea impedit deserunt ut nisi labore id tenetur quaerat? Qui dolores similique qui corporis reiciendis sit enim sequi sit facilis dolores aut vero cumque rem quae illum ut voluptatem architecto.
+        <div className='flex justify-end text-justify text-5xl font-thin pt-20 pr-20 pl-20 pb-16'> Hi guys! I'm Deja Moore. A software developer based in Richmond, VA that work to "Designing with the user in mind." I spend most of my time loving a sweet, adorable, little Maltipoo by the name of Leo. Who has a personality of energized bunny but a spirit of an old soul. I tend to feel my best self when I'm out in nature simply absorbing in the sunlight and walking nature trails. Traveling and experience different cultures has also been another way in explore more of myself. Most of my family and friends will tell you, if I'm not working, I'm planning my next trip. I've had the opportunity to visit beautiful places like Puerto Rico, Mexico, and Dominican Republic within these last few of years.  
         </div>
+        {/* <img src={leo} alt='picture of a dog' width='20%' height='20%' className='flex rounded-full m-7 p-28'></img> */}
       </div>
       {/* ambitions section */}
       <div className='flex justify-center text-6xl font-black pt-10  text-white bg-gradient-to-r from-neutral to-secondary'>
-      Aspirations
+        Aspirations
       </div>
 
-      <div className='flex justify-end text-5xl font-thin p-28  text-white bg-gradient-to-r from-neutral to-secondary'>
-        I've always had a passion for helping people. Even inspiring little kids that look like me. Lorem ipsum dolor sit amet. Ut dolores dolor eum voluptatem voluptatem eum molestiae error est quaerat enim ea impedit deserunt ut nisi labore id tenetur quaerat? Qui dolores similique qui corporis reiciendis sit enim sequi sit facilis dolores aut vero cumque rem quae illum ut voluptatem architecto.
+      <div className='flex justify-end text-5xl text-center font-thin p-28  text-white bg-gradient-to-r from-neutral to-secondary'>
+      I constantly think about how I want to make an impact on the world. I’ve come to realize that I truly want to make a lasting impression on the lives of our future generation.I've always had a passion for helping people. Even more, I want to inspire little kids that look like me. I hope to positively impact so many lives through technology. Lorem ipsum dolor sit amet. Ut dolores dolor eum voluptatem voluptatem eum molestiae error est quaerat enim ea impedit deserunt ut nisi labore id tenetur quaerat? Qui dolores similique qui corporis reiciendis sit enim sequi sit facilis dolores aut vero cumque rem quae illum ut voluptatem architecto.
       </div>
       {/* contact section */}
       <div className='flex justify-center text-6xl font-black pt-10 navContact  text-white bg-gradient-to-r from-neutral to-secondary'>
