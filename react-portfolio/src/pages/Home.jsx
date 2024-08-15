@@ -1,5 +1,6 @@
 import React from 'react';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import headShot from './images/IMG_1879.jpg';
 import mathLogo from './images/mathLogo.png';
 import sephoraLogo from './images/sephoraLogo.jpg';
@@ -7,9 +8,34 @@ import ultaLogo from './images/ultaLogo.jpg';
 import linkedInLogo from './images/linkedInLogo.png';
 import emailLogo from './images/emailLogo.png';
 import githubLogo from './images/githubLogo.png';
-import leo from './images/leo.png';
 
-function App() {
+export default function Home() {
+    const navigate = useNavigate();
+
+    function navigateHome() {
+        navigate('/')
+    }
+
+    function navigateProjects() {
+        navigate('/projects')
+    }
+
+    function navigateExperience() {
+        navigate('/experience')
+    }
+
+    function navigateAboutMe() {
+        navigate('/aboutme')
+    }
+
+    function navigateAspirations() {
+        navigate('/aspirations')
+    }
+
+    function navigateContacttMe() {
+        navigate('/contactme')
+    }
+
 
   return (
     <div>
@@ -18,22 +44,22 @@ function App() {
         <div className="flex-none">
         </div>
         <div className="flex-1">
-          <a className="btn btn-ghost rounded-full text-xl font-bold">Deja's Portfolio</a>
+          <a onClick={() => navigateHome()} className="btn btn-ghost rounded-full text-xl font-bold">Deja's Portfolio</a>
         </div>
         <div className="flex-2">
-          <a className="btn btn-ghost rounded-full text-xl font-bold">Projects</a>
+          <a onClick={() => navigateProjects()} className="btn btn-ghost rounded-full text-xl font-bold">Projects</a>
         </div>
         <div className="flex-3">
-          <a className="btn btn-ghost rounded-full text-xl font-bold">Experience</a>
+          <a onClick={() => navigateExperience()}className="btn btn-ghost rounded-full text-xl font-bold">Experience</a>
         </div>
         <div className="flex-4">
-          <a className="btn btn-ghost rounded-full text-xl font-bold">About Me</a>
+          <a onClick={() => navigateAboutMe()}className="btn btn-ghost rounded-full text-xl font-bold">About Me</a>
         </div>
         <div className="flex-4">
-          <a className="btn btn-ghost rounded-full text-xl font-bold">Aspirations</a>
+          <a onClick={() => navigateAspirations()} className="btn btn-ghost rounded-full text-xl font-bold">Aspirations</a>
         </div>
         <div className="flex-4">
-          <a className="btn btn-ghost rounded-full text-xl font-bold">Contact Me</a>
+          <a onClick={() => navigateContacttMe()} className="btn btn-ghost rounded-full text-xl font-bold">Contact Me</a>
         </div>
       </div>
       {/* project section */}
@@ -115,4 +141,3 @@ function App() {
   )
 }
 
-export default App
