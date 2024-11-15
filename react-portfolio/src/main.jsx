@@ -7,7 +7,6 @@ import Projects from './pages/Projects.jsx'
 import Experience from './pages/Experience.jsx'
 import AboutMe from './pages/AboutMe.jsx'
 import Aspirations from './pages/Aspirations.jsx'
-import ContactMe from './pages/ContactMe.jsx'
 
 const router = createBrowserRouter([
   {
@@ -30,11 +29,6 @@ const router = createBrowserRouter([
     path:"/aspirations",
     element: <Aspirations> </Aspirations>
   },
-  {
-    path:"/contactme",
-    element: <ContactMe></ContactMe>
-  }
-
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
