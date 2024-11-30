@@ -49,9 +49,6 @@ export default function AboutMe() {
         <div className="flex-4">
           <a onClick={() => navigateAspirations()} className="btn btn-ghost rounded-full text-xl font-bold">Aspirations</a>
         </div>
-        <div className="flex-4">
-          <a onClick={() => navigateContactMe()} className="btn btn-ghost rounded-full text-xl font-bold">Contact Me</a>
-        </div>
       </div>
       
       {/* about me section */}
