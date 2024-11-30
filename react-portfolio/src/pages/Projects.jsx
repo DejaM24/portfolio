@@ -28,10 +28,6 @@ export default function Projects() {
         navigate('/aspirations')
     }
 
-    function navigateContactMe() {
-        navigate('/contactme')
-    }
-
     return (
         <div>
             {/* nav bar */}
@@ -64,23 +60,23 @@ export default function Projects() {
 
             <div className='flex flex-col text-2xl font-bold text-white bg-gradient-to-r from-neutral to-secondary'>
                 {/* link to project 1 */}
-                <div className='flex justify-center p-10'>
+                <div className='flex justify-center p-10 hover:underline'>
                     <a href='https://www.coolmathgames.com/' target='_blank'>Cool Math Games</a>
                 </div>
                 {/* link to project 2 */}
-                <div className='flex justify-center p-10'>
+                <div className='flex justify-center p-10 hover:underline'>
                     <a href='https://www.sephora.com/' target='_blank'>Sephora</a>
                 </div>
                 {/* link to project 3 */}
-                <div className='flex justify-center p-10'>
+                <div className='flex justify-center p-10 hover:underline'>
                     <a href='https://www.ulta.com/' target='_blank'>Ulta</a>
                 </div>
                 {/* link to project 4 */}
-                <div className='flex justify-center p-10'>
+                <div className='flex justify-center p-10 hover:underline'>
                     <a href='https://github.com/DejaM24' target='_blank'>GitHub</a>
                 </div>
                 {/* link to project 5 */}
-                <div className='flex justify-center p-10'>
+                <div className='flex justify-center p-10 hover:underline'>
                     <a href='https://placecats.com/' target='_blank'>Place Cats</a>
                 </div>
             </div>
