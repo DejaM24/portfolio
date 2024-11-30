@@ -33,10 +33,6 @@ function App() {
     navigate('/aspirations')
   }
 
-  function navigateContactMe() {
-    navigate('/contactme')
-  }
-
   return (
     <div>
       {/* nav bar */}
@@ -90,11 +86,11 @@ function App() {
         {/* link to linkedIn */}
         <div>
           {/* why is the link not working??? */}
-          <a href='www.linkedin.com/in/deja-moore/' target='_blank'><img src={linkedInLogo} alt='linkedIn logo'></img></a>
+          <a href='https://www.linkedin.com/in/deja-moore' target='_blank'><img src={linkedInLogo} alt='linkedIn logo'></img></a>
         </div>
         {/* link to email */}
         <div>
-          <img src={emailLogo} alt='email logo'></img>
+          <a href='mailto:deja.moore2018@gmail.com' target='_blank'><img src={emailLogo} alt='email logo'></img></a>
         </div>
       </div>
 
