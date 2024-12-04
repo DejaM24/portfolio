@@ -59,7 +59,12 @@ export default function Experience() {
          </div>
 
          <div className='flex content-center text-5xl text-center font-thin  p-28  text-white bg-gradient-to-r from-neutral to-secondary'>
-           Most of my professional career took place in medicine. I worked in pharmaceuticals to be more specific. Working through challenges throughout my career, I've really valued inquiring intricate skills along the way. I've been coding for roughly about a year now. Continuously buliding on different tools and languages to gain a broader understanding of reading, writing and debugging code. My niche lies within front-end development, creating user friendly applications that are responsive and aesthetically pleasing. I want users to be able to maximize a product's functionality that contributes to their overall user experience. My hope is to expand my career by improving the user experience through the use of technology. The foundation of most of the applications I've developed have been the use of Javascript, React, Vite, daisyUI, and Tailwind CSS.
+           I've been a developer for roughly 12 months. 
+           Constantly buliding my knowledge and experinece on reading, writing and debugging code.
+           I'm always seeking to gain a broader understanding of the coding languages I already know, while also learning new ones.
+           My niche lies within front-end development, creating user friendly applications that are responsive and aesthetically pleasing. 
+           I want users to be able to maximize a product's functionality that contributes to the overall user experience.
+            My hope is to expand my professional career by improving user experience through the use of technology. 
          </div>
        </div>
        

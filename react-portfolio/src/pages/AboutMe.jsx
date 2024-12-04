@@ -60,9 +60,15 @@ export default function AboutMe() {
         {/* <img src={headShot} alt='portrait' width='24%' height='24%' className='flex rounded-full ml-20 pt-24 pb-24 scale-y-75'></img> */}
 
          {/* edit text here */}
-         <div className='flex content-center text-justify text-5xl font-thin pt-20 pr-20 pl-20 pb-16'> Hi guys! I'm Deja Moore. A software developer based in Richmond, VA that works to "Designing with the user in mind." I spend most of my time being a loving auntie to a sweet, adorable, little Maltipoo by the name of Leo. Who's personality resembles an energized bunny but mimics a spirit of an old soul. I tend to spend my spare time in nature and exploring nature trails. I also find  joy in traveling and experiencing different cultures. Most of my family and friends will tell you, if I'm not working, I'm planning my next trip. I've been able to experienced different places like Puerto Rico, Mexico, and the Dominican Republic.  
+         <div className='flex content-center text-justify text-5xl font-thin pt-20 pr-20 pl-20 pb-16'> 
+         Hi guys! I'm Deja Moore. A software developer based in Richmond, VA that works to "Design with the User in Mind." 
+         I've helped developed various projects and applications. 
+         Being able to collabrate with a team in creating real-life applications has been extremely benefitcal to the start of my career. 
+         My eagerness in continuing to grow as a developer as pushed me to learn more within the field as I work hands on.  
+         The foundation of most of the applications I've developed have been the use of HTML & CSS, Javascript, React JS, & Python. 
+         Some additional tools I had experience with include daisyUI, Tailwind CSS, Express JS, node JS, and Mongoose/MongoDB.
          </div>
-         {/* <img src={leo} alt='picture of a dog' width='20%' height='20%' className='flex rounded-full m-7 p-28'></img> */}
+       
        </div>
 
        <footer className='flex justify-center pt-20  text-white bg-gradient-to-r from-neutral to-secondary'>Copyright© 2024 Deja's Portfolio, All Right Reserved.</footer>

@@ -1,14 +1,9 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import headShot from './images/IMG_1879.jpg'
-import mathLogo from './images/mathLogo.png'
-import sephoraLogo from './images/sephoraLogo.jpg'
-import ultaLogo from './images/ultaLogo.jpg'
 import linkedInLogo from './images/linkedInLogo.png'
 import emailLogo from './images/emailLogo.png'
 import githubLogo from './images/githubLogo.png'
-import leo from './images/leo.png';
-// import mexico from './images/IMG_3053.jpg'
 
 function App() {
   const navigate = useNavigate();
@@ -67,15 +62,16 @@ function App() {
       <div className='flex justify-center  text-white bg-gradient-to-r from-neutral to-secondary'>
 
         {/* edit text here */}
-        <div className='flex justify-center text-justify text-5xl font-thin pt-20 pr-20 pl-20 pb-16'> Hi guys! I'm Deja Moore. A software developer based in Richmond, VA that works to "Designing with the user in mind." I spend most of my time being a loving auntie to a sweet, adorable, little Maltipoo by the name of Leo. Who's personality resembles an energetic five year old but mimics a spirit of someone's grandpa. I tend to spend my spare time in nature and exploring nature trails. I also find  joy in traveling and experiencing different cultures. Most of my family and friends will tell you, if I'm not working, I'm planning my next trip. I've been able to experienced different places like Puerto Rico, Mexico, and the Dominican Republic.
-        </div>
+        <div className='flex justify-center text-justify text-5xl font-thin pt-20 pr-20 pl-20 pb-16'>  Hi guys! I'm Deja Moore. A software developer based in Richmond, VA that works to "Design with the User in Mind." 
+         I've helped developed various projects and applications. 
+         Being able to collabrate with a team in creating real-life applications has been extremely benefitcal to the start of my career. 
+         My eagerness in continuing to grow as a developer as pushed me to learn more within the field as I work hands on.  
+         The foundation of most of the applications I've developed have been the use of HTML & CSS, Javascript, React JS, & Python. 
+         Some additional tools I had experience with include daisyUI, Tailwind CSS, Express JS, node JS, and Mongoose/MongoDB.
+         </div>
       </div>
 
-      {/* leo's and mexico picture  */}
-      <div className='flex justify-center  text-white bg-gradient-to-r from-neutral to-secondary'>
-        <img src={leo} alt='picture of a dog' className='object-contain h-96 w-96 m-20'></img>
-        {/* <img src={mexico} alt='picture of mexico' className='object-contain h-96 w-96 m-20'></img> */}
-      </div>
+      
 
       {/* contact section */}
       <div className='flex justify-center text-6xl font-black pt-10 navContact  text-white bg-gradient-to-r from-neutral to-secondary'>
@@ -85,7 +81,6 @@ function App() {
       <div className='flex justify-evenly p-20  text-white bg-gradient-to-r from-neutral to-secondary'>
         {/* link to linkedIn */}
         <div>
-          {/* why is the link not working??? */}
           <a href='https://www.linkedin.com/in/deja-moore' target='_blank'><img src={linkedInLogo} alt='linkedIn logo'></img></a>
         </div>
         {/* link to email */}
