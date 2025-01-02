@@ -1,9 +1,9 @@
-import React from 'react'
-import { useNavigate } from 'react-router-dom'
-import headShot from './images/IMG_1879.jpg'
-import linkedInLogo from './images/linkedInLogo.png'
-import emailLogo from './images/emailLogo.png'
-import './App.css'
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
+import headShot from './images/IMG_1879.jpg';
+import linkedInLogo from './images/3536569.png';
+import emailLogo from './images/542689.png';
+import './App.css';
 
 function App() {
   const navigate = useNavigate();
@@ -75,8 +75,8 @@ function App() {
           I've helped developed various projects and applications.
           Being able to collabrate with a team in creating real-life applications has been extremely benefitcal to the start of my career.
           My eagerness in continuing to grow as a developer has pushed me to learn more within the field as I work with hands on projects.
-          The foundation of most of the applications I've developed have been the use of HTML & CSS, & Javascript.
-          Some additional tools I utilize include daisyUI, Tailwind CSS, React JS, Express JS, Node JS, and Mongoose/MongoDB.
+          The foundation of most applications I've developed have been the use of HTML & CSS, & Javascript.
+          Some additional tools I've utilized include daisyUI, Tailwind CSS, React JS, Express JS, Node JS, and Mongoose/MongoDB.
         </div>
       </div>
 
