@@ -62,29 +62,29 @@ export default function Projects() {
 
             {/* project carousel */}
             <div className='flex flex-col carousel carousel-vertical h-96 text-2xl font-bold text-white bg-gradient-to-r from-neutral to-secondary'>
-                <div className="carousel-item h-full flex justify-center m-60">{/* link to project 1 */}
-                    <div className='bg-red-900 p-10 hover:underline grid h-full w-full place-content-center rounded-box'>
-                        <a href='https://github.com/DejaM24' target='_blank'>Upcoming Project #1</a>
+                <div className="carousel-item h-full flex justify-center m-96 ">{/* link to project 1 */}
+                    <div className='bg-transparent shadow-2xl p-10 hover:underline grid h-full w-full place-content-center rounded-box animate-bounce'>
+                        <a href='https://juicepress-capstone-project-client-side.onrender.com/' target='_blank' className='text-4xl'>Juice Press</a>
                     </div>
                 </div>
-                <div className="carousel-item h-full flex justify-center m-60"> {/* link to project 2 */}
-                    <div className='bg-orange-900 p-10 hover:underline grid h-full w-full place-content-center rounded-box'>
-                        <a href='https://github.com/DejaM24' target='_blank'>Upcoming Project #2</a>
+                <div className="carousel-item h-full flex justify-center m-96"> {/* link to project 2 */}
+                    <div className='bg-transparent shadow-2xl p-10 hover:underline grid h-full w-full place-content-center rounded-box'>
+                        <a href='https://github.com/DejaM24' target='_blank' className='text-4xl'>Upcoming Project #2</a>
                     </div>
                 </div>
-                <div className="carousel-item h-full flex justify-center m-60">{/* link to project 3 */}
-                    <div className='bg-yellow-900 p-10 hover:underline grid h-full w-full place-content-center rounded-box'>
-                        <a href='https://github.com/DejaM24' target='_blank'>Upcoming Project #3</a>
+                <div className="carousel-item h-full flex justify-center m-96">{/* link to project 3 */}
+                    <div className='bg-transparent shadow-2xl p-10 hover:underline grid h-full w-full place-content-center rounded-box'>
+                        <a href='https://github.com/DejaM24' target='_blank' className='text-4xl'>Upcoming Project #3</a>
                     </div>
                 </div>
-                <div className="carousel-item h-full flex justify-center m-60"> {/* link to project 4 */}
-                    <div className='bg-green-900 p-10 hover:underline grid h-full w-full place-content-center rounded-box'>
-                        <a href='https://github.com/DejaM24' target='_blank'>Upcoming Project #4</a>
+                <div className="carousel-item h-full flex justify-center m-96"> {/* link to project 4 */}
+                    <div className='bg-transparent shadow-2xl p-10 hover:underline grid h-full w-full place-content-center rounded-box'>
+                        <a href='https://github.com/DejaM24' target='_blank' className='text-4xl'>Upcoming Project #4</a>
                     </div>
                 </div>
-                <div className="carousel-item h-full flex justify-center m-60">{/* link to project 5 */}
-                    <div className='bg-blue-900 p-10 hover:underline grid h-full w-full place-content-center rounded-box'>
-                        <a href='https://github.com/DejaM24' target='_blank'>Upcoming Project #5</a>
+                <div className="carousel-item h-full flex justify-center m-96">{/* link to project 5 */}
+                    <div className='bg-transparent shadow-2xl p-10 hover:underline grid h-full w-full place-content-center rounded-box'>
+                        <a href='https://github.com/DejaM24' target='_blank' className='text-4xl'>Upcoming Project #5</a>
                     </div>
                 </div>
             </div>

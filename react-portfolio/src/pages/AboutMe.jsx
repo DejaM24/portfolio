@@ -52,7 +52,7 @@ export default function AboutMe() {
       </div>
       
       {/* about me section */}
-      <div className='flex justify-center text-6xl font-black pt-10  text-white bg-gradient-to-r from-neutral to-secondary'>
+      <div className='flex justify-center text-6xl font-black pt-10 pb-10 text-white bg-gradient-to-r from-neutral to-secondary'>
          About Me
        </div>
         {/* why doesn't images import? */}
@@ -60,7 +60,7 @@ export default function AboutMe() {
         {/* <img src={headShot} alt='portrait' width='24%' height='24%' className='flex rounded-full ml-20 pt-24 pb-24 scale-y-75'></img> */}
 
          {/* edit text here */}
-         <div className='flex content-center text-5xl font-thin pt-20 pr-20 pl-20 pb-16 text-center'> 
+         <div className='flex content-center text-5xl font-thin p-14 mr-20 ml-20 bg-gradient-to-r from-neutral to-secondary rounded-3xl text-center bg-transparent shadow-2xl'> 
          Hi guys! I'm Deja Moore. A software developer based in Richmond, VA that works to "Design with the User in Mind." 
          I've helped developed various projects and applications. 
          Being able to collabrate with a team in creating real-life applications has been extremely benefitcal to the start of my career. 
