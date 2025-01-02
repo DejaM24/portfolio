@@ -1,0 +1,17 @@
+.textEdit {
+  font-size: 72px;
+  background-image: linear-gradient(45deg, #450899, #f07407);
+  background-size: 100%;
+  background-repeat: repeat;
+  background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  text-align: center;
+}
+
+.play {
+    background-image: linear-gradient(45deg, #450899, #f07407);
+    background-clip: text;
+    color: transparent;
+}

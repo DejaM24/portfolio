@@ -60,13 +60,13 @@ export default function AboutMe() {
         {/* <img src={headShot} alt='portrait' width='24%' height='24%' className='flex rounded-full ml-20 pt-24 pb-24 scale-y-75'></img> */}
 
          {/* edit text here */}
-         <div className='flex content-center text-justify text-5xl font-thin pt-20 pr-20 pl-20 pb-16'> 
+         <div className='flex content-center text-5xl font-thin pt-20 pr-20 pl-20 pb-16 text-center'> 
          Hi guys! I'm Deja Moore. A software developer based in Richmond, VA that works to "Design with the User in Mind." 
          I've helped developed various projects and applications. 
          Being able to collabrate with a team in creating real-life applications has been extremely benefitcal to the start of my career. 
          My eagerness in continuing to grow as a developer as pushed me to learn more within the field as I work hands on.  
          The foundation of most of the applications I've developed have been the use of HTML & CSS, Javascript, React JS, & Python. 
-         Some additional tools I had experience with include daisyUI, Tailwind CSS, Express JS, node JS, and Mongoose/MongoDB.
+         Some additional tools I had experience with include daisyUI, Tailwind CSS, Express JS, Node JS, and Mongoose/MongoDB.
          </div>
        
        </div>
