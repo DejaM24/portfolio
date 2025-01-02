@@ -65,7 +65,7 @@ export default function AboutMe() {
          I've helped developed various projects and applications. 
          Being able to collabrate with a team in creating real-life applications has been extremely benefitcal to the start of my career. 
          My eagerness in continuing to grow as a developer as pushed me to learn more within the field as I work hands on.  
-         The foundation of most of the applications I've developed have been the use of HTML & CSS, Javascript, React JS, & Python. 
+         The foundation of most of the applications I've developed have been the use of HTML & CSS, Javascript,& React JS. 
          Some additional tools I had experience with include daisyUI, Tailwind CSS, Express JS, Node JS, and Mongoose/MongoDB.
          </div>
        
