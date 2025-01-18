@@ -24,10 +24,6 @@ function App() {
     navigate('/aboutme')
   }
 
-  function navigateAspirations() {
-    navigate('/aspirations')
-  }
-
   return (
     <div>
       {/* nav bar */}
@@ -45,9 +41,6 @@ function App() {
         </div>
         <div className="flex-4">
           <a onClick={() => navigateAboutMe()} className="btn btn-ghost rounded-full text-xl font-bold">About Me</a>
-        </div>
-        <div className="flex-4">
-          <a onClick={() => navigateAspirations()} className="btn btn-ghost rounded-full text-xl font-bold">Aspirations</a>
         </div>
       </div>
 
