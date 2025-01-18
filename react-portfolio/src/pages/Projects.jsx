@@ -20,10 +20,6 @@ export default function Projects() {
         navigate('/aboutme')
     }
 
-    function navigateAspirations() {
-        navigate('/aspirations')
-    }
-
     return (
         <div>
             {/* nav bar */}
@@ -42,9 +38,6 @@ export default function Projects() {
                 <div className="flex-4">
                     <a onClick={() => navigateAboutMe()} className="btn btn-ghost rounded-full text-xl font-bold">About Me</a>
                 </div>
-                <div className="flex-4">
-                    <a onClick={() => navigateAspirations()} className="btn btn-ghost rounded-full text-xl font-bold">Aspirations</a>
-                </div>
             </div>
 
             {/* project header */}
@@ -54,10 +47,40 @@ export default function Projects() {
                 </div>
             </div>
 
+            {/* create links */}
+            <div className='flex justify-center text-white bg-gradient-to-r from-neutral to-secondary'>
+                <div className='flex flex-col bg-transparent shadow-2xl text-2xl text-center font-thin p-14 text-white mr-20 ml-20 rounded-3xl bg-gradient-to-r from-neutral to-secondary'>
+                    <div className="mb-10">
+                        <h1 className='text-5xl font-bold underline'>Project Overview</h1>
+                    </div>
+                    <div className='mb-10'>
+                        <h2 className='text-4xl font-bold hover:underline'>React ChitChat App</h2>
+                        <p>A real-time chat application built with React JS and MongoDB, allowing users to communicate instantly.</p>
+                    </div>
+                    <div className='mb-10'>
+                        <h2 className='text-4xl font-bold hover:underline'>Juice Press</h2>
+                        <p>An intranet platform for a juice company, featuring a user-friendly interface with the intentions to offer a more seemless way of connecting various staff throughout the company.</p>
+                    </div>
+                    <div className='mb-10'>
+                        <h2 className='text-4xl font-bold hover:underline'>Socialbook</h2>
+                        <p>A social networking platform where users can create profiles, post updates, and connect with friends.</p>
+                    </div>
+                    <div className='mb-10'>
+                        <h2 className='text-4xl font-bold hover:underline'>Jeopardy Board</h2>
+                        <p>An interactive Jeopardy game board built with HTML, CSS, and JavaScript, perfect for educational purposes.</p>
+                    </div>
+                    <div className='mb-10'>
+                        <h2 className='text-4xl font-bold hover:underline'>Ni</h2>
+                        <p>An upcoming marketplace that promotes black-owned businesses, financial literacy, products, and investments.</p>
+                    </div>
+                </div>
+            </div>
+
+            {/* reword so github and project links are separate */}
             <div>
-               <div className="flex justify-center text-3xl font-black pt-10 p-20 text-white bg-gradient-to-r from-neutral to-secondary">
-                Scroll through to see upcoming projects through GitHub
-               </div>
+                <div className="flex justify-center text-3xl font-black pt-10 p-20 text-white bg-gradient-to-r from-neutral to-secondary">
+                    Scroll below to see projects through GitHub
+                </div>
             </div>
 
             {/* project carousel */}

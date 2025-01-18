@@ -6,7 +6,6 @@ import App from './App.jsx'
 import Projects from './pages/Projects.jsx'
 import Experience from './pages/Experience.jsx'
 import AboutMe from './pages/AboutMe.jsx'
-import Aspirations from './pages/Aspirations.jsx'
 
 const router = createBrowserRouter([
   {
@@ -24,11 +23,7 @@ const router = createBrowserRouter([
   {
     path:"/aboutme",
     element: <AboutMe> </AboutMe>
-  },
-  {
-    path:"/aspirations",
-    element: <Aspirations> </Aspirations>
-  },
+  }
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
