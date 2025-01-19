@@ -58,18 +58,18 @@ function App() {
         <img src={headShot} alt='portrait' className='object-contain h-96 w-96 m-20 '></img>
       </div>
       <div className='flex justify-center text-6xl font-black pt-10 pb-20 text-white bg-gradient-to-r from-neutral to-secondary'>
-        About Me
+      Introduction
       </div>
 
       <div className='flex justify-center  text-white bg-gradient-to-r from-neutral to-secondary'>
 
         {/* edit text here */}
         <div className='rounded-3xl p-10 bg-transparent mr-32 ml-32 shadow-2xl text-white font-thin text-5xl text-center'>  Hi guys! I'm Deja Moore. A software developer based in Richmond, VA that works to "Design with the User in Mind."
-          I've helped developed various projects and applications.
-          Being able to collabrate with a team in creating real-life applications has been extremely benefitcal to the start of my career.
-          My eagerness in continuing to grow as a developer has pushed me to learn more within the field as I work with hands on projects.
-          The foundation of most applications I've developed have been the use of HTML & CSS, & Javascript.
-          Some additional tools I've utilized include daisyUI, Tailwind CSS, React JS, Express JS, Node JS, and Mongoose/MongoDB.
+          I've worked on developing multiple real-life projects and applications.
+          Collabrating with others has definitely contribute to my growth in blossoming into the developer I am today.
+          My eagerness to grow as a developer has pushed me to learn more within the field as I continue to work on more real-life projects.
+          {/* The foundation of most applications I've developed have been the use of HTML & CSS, & Javascript. */}
+          {/* Some additional tools I've utilized include daisyUI, Tailwind CSS, React JS, Express JS, Node JS, and Mongoose/MongoDB. */}
         </div>
       </div>
 
