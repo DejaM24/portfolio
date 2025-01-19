@@ -19,10 +19,6 @@ export default function AboutMe() {
     function navigateAboutMe(){
       navigate('/aboutme')
     }
-  
-    function navigateContactMe(){
-      navigate('/contactme')
-    }
 
     return (
         <div>
@@ -48,10 +44,7 @@ export default function AboutMe() {
       <div className='flex justify-center text-6xl font-black pt-10 pb-10 text-white bg-gradient-to-r from-neutral to-secondary'>
          About Me
        </div>
-        {/* why doesn't images import? */}
        <div className='flex justify-center  text-white bg-gradient-to-r from-neutral to-secondary'>
-        {/* <img src={headShot} alt='portrait' width='24%' height='24%' className='flex rounded-full ml-20 pt-24 pb-24 scale-y-75'></img> */}
-
          {/* condense text here */}
          <div className='flex flex-col text-5xl font-thin p-14 mr-20 ml-20 bg-gradient-to-r from-neutral to-secondary rounded-3xl text-center bg-transparent shadow-2xl'> 
          <div className="mb-10">
@@ -75,14 +68,7 @@ export default function AboutMe() {
                 Whether that's through outreach, innovation, or collaboration, I want to showcase the importance of community. 
                 So that, future generations will grasp what it truly means to work towards something bigger than themselves.</p>
             </div>
-         {/* Hi guys! I'm Deja Moore. A software developer based in Richmond, VA that works to "Design with the User in Mind." 
-         I've helped developed various projects and applications. 
-         Being able to collabrate with a team in creating real-life applications has been extremely benefitcal to the start of my career. 
-         My eagerness in continuing to grow as a developer has pushed me to learn more within the field as I work with hands on projects.  
-         The foundation of most applications I've developed have been the use of HTML & CSS, & Javascript. 
-         Some additional tools I've utilized include daisyUI, Tailwind CSS, React JS, Express JS, Node JS, and Mongoose/MongoDB. */}
-         </div>
-       
+         </div> 
        </div>
 
        <footer className='flex justify-center pt-20  text-white bg-gradient-to-r from-neutral to-secondary'>Copyright© 2024 Deja's Portfolio, All Right Reserved.</footer>
